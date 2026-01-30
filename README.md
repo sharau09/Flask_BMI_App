@@ -32,6 +32,9 @@ Deployment-ready
 
 Deployment
 gunicorn app:app
+
+
 Author
 
 Sharau Jagtap
+
