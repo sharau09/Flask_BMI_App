@@ -1,29 +1,8 @@
-🧮 Flask BMI Calculator Web App
+Flask BMI Calculator App
 
-A simple Flask-based web application that calculates Body Mass Index (BMI) based on user input (height & weight) and displays the BMI category.
-This project demonstrates backend development with Flask, frontend integration, GitHub version control, and deployment readiness.
+A simple Flask web application that calculates Body Mass Index (BMI) using user-entered height and weight and displays the BMI category.
 
-🚀 Features
-
-User-friendly web interface
-
-BMI calculation using standard formula
-
-BMI category classification:
-
-Underweight
-
-Normal
-
-Overweight
-
-Obese
-
-Flask backend with HTML & CSS frontend
-
-Ready for cloud deployment (Gunicorn supported)
-
-🛠️ Tech Stack
+Tech Stack
 
 Python
 
@@ -31,21 +10,28 @@ Flask
 
 HTML / CSS
 
-Git & GitHub
+GitHub
 
-Gunicorn (for deployment)
+Gunicorn (deployment)
 
-📁 Project Structure
-Flask_BMI_App/
-│
-├── app.py
-├── requirements.txt
-├── README.md
-├── .gitignore
-│
-├── templates/
-│   ├── index.html
-│   └── result.html
-│
-└── static/
-    └── style.css
+How to Run
+pip install -r requirements.txt
+python app.py
+
+Open: http://127.0.0.1:5000
+
+Features
+
+BMI calculation
+
+BMI category (Underweight, Normal, Overweight, Obese)
+
+Simple UI
+
+Deployment-ready
+
+Deployment
+gunicorn app:app
+Author
+
+Sharau Jagtap
